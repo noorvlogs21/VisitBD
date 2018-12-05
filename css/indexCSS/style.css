@@ -1,0 +1,22 @@
+/*Start CSS*/
+.container {
+    width: 85%;
+}
+
+.navBG {
+    height: 75px;
+    background-image: url('/img/indexIMG/navBG.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+#changeText {
+    font-size: 25px;
+    font-weight: bold;
+}
+#changeText::before {
+    font-size: 20px;
+    font-weight: normal;
+    content: "Visit ";
+}

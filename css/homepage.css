@@ -1,0 +1,36 @@
+/*** HOMEPAGE ***/
+/* Banner over Video */
+#bdVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.vidDetails {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* faded black to show bg vid */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* goto map view */
+#exploreMap {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: green;
+    cursor: pointer;
+    border-radius: 75% 75%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+#exploreMap:hover {
+    background: transparent;
+    color: red;
+}

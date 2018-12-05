@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--SPA Application Shell-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129150526-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        } 
+        gtag('js', new Date());
+        gtag('config', 'UA-129150526-2');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Noor Uddin" />
+    <meta name="url" content="http://bit.ly/NoorDevelops">
+    <meta name="description" content="Bangladesh is an AMAZING country for tourists all over the world to check out! Here are the reasons why you should tick BD off your travel list">
+    <meta name="keywords" content="Noor Uddin, Final Year Project, Web Development, Front End Dev, Full Stack Developer, Travel, Tourism, Bangladesh, Asia, Country, Holiday, Vacation, Hot">
+
+    <link rel="icon" href="img/indexIMG/AppIcon.png">
+    <title>Visit Bangladesh!</title>
+
+    <!-- CSS override  -->
+    <link href="css/indexCSS/materialize.min.css" rel="stylesheet">
+    <link href="css/indexCSS/style.css" rel="stylesheet" />
+    <!-- External CSS Sources -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navBG">
+        <div class="nav-wrapper z-depth-2">
+            <a href="#" class="brand-logo center" id="changeText">Bangladesh</a>
+            <a href="#" class="brand-logo right"><i class="material-icons">vpn_key</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+                <li>
+                    <a class="dropdown-trigger" href="#" data-target="dropdownD">Districts</a>
+                </li>
+                <ul id='dropdownD' class='dropdown-content'>
+                    <li><a id="districtMap">MAP</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#!" class="mapLinks">Rangpur</a></li>
+                    <li><a href="#!" class="mapLinks">Sylhet</a></li>
+                    <li><a href="#!" class="mapLinks">Dhaka</a></li>
+                    <li><a href="#!" class="mapLinks">Rajshahi</a></li>
+                    <li><a href="#!" class="mapLinks">Khulna</a></li>
+                    <li><a href="#!" class="mapLinks">Barisal</a></li>
+                    <li><a href="#!" class="mapLinks">Chittagong</a></li>
+                </ul>
+                <li><a href="#">History</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a class="dropdown-trigger" href="#" data-target="dropdownM">Districts</a>
+        </li>
+        <ul id='dropdownM' class='dropdown-content'>
+            <li><a id="districtMap">MAP</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!" class="mapLinks">Rangpur</a></li>
+            <li><a href="#!" class="mapLinks">Sylhet</a></li>
+            <li><a href="#!" class="mapLinks">Dhaka</a></li>
+            <li><a href="#!" class="mapLinks">Rajshahi</a></li>                    
+            <li><a href="#!" class="mapLinks">Khulna</a></li>
+            <li><a href="#!" class="mapLinks">Barisal</a></li>                
+            <li><a href="#!" class="mapLinks">Chittagong</a></li>
+        </ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#">Mobile</a></li>
+    </ul>
+
+
+
+
+    <!-- SPA root partial views injected into here-->
+    <div class="contentRoot">
+
+
+
+
+    </div>
+    <!--close contentRoot-->
+
+
+
+    
+    <script src="js/indexJS/jQuery3.3.1.js"></script>
+    <script src="js/indexJS/PV.JS/PVSystem.js"></script>
+    <script src="js/indexJS/PV.JS/PVInit.js"></script>
+    <script src="js/indexJS/materialize.min.js"></script>
+    <script src="js/indexJS/index.js"></script>
+
+</body>
+
+</html>
