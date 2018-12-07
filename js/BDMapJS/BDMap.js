@@ -1,6 +1,11 @@
 //Hide Area Cards on load
 $('#rangpurInfoCard').hide();
 $('#sylhetInfoCard').hide();
+$('#dhakaInfoCard').hide();
+$('#rajshahiInfoCard').hide();
+$('#khulnaInfoCard').hide();
+$('#barisalInfoCard').hide();
+$('#chittagongInfoCard').hide();
 
 //Map Hotspot Areas
 //click on hotspot within the map
@@ -43,8 +48,15 @@ $('#sylhetMap').click(function() {
 $('#dhakaMap').click(function() {
     console.log('Dhaka Hotspot Clicked.');
     try {
-        //Load card with brief info on area
+        $('#dhakaInfoCard').fadeIn('500');
         console.log('Dhaka Info Card Loaded Successfully');
+        $('#dhakaInfoBut').click(function() {
+            changeScreen('homepage');
+        });
+        $('.close').click(function(){
+            $('#dhakaInfoCard').fadeOut('500');
+            console.log('Dhaka Info Card Closed Successfully');
+        });
     }catch(error) {
         console.error(error);
     }
@@ -52,8 +64,15 @@ $('#dhakaMap').click(function() {
 $('#rajshahiMap').click(function() {
     console.log('Rajshahi Hotspot Clicked.');
     try {
-        //Load card with brief info on area
+        $('#rajshahiInfoCard').fadeIn('500');
         console.log('Rajshahi Info Card Loaded Successfully');
+        $('#rajshahiInfoBut').click(function() {
+            changeScreen('homepage');
+        });
+        $('.close').click(function(){
+            $('#rajshahiInfoCard').fadeOut('500');
+            console.log('Rajshahi Info Card Closed Successfully');
+        });
     }catch(error) {
         console.error(error);
     }
@@ -61,8 +80,15 @@ $('#rajshahiMap').click(function() {
 $('#khulnaMap').click(function() {
     console.log('Khulna Hotspot Clicked.');
     try {
-        //Load card with brief info on area
-        console.log('Khulna Info Card Loaded Successfully');
+        $('#khulnaInfoCard').fadeIn('500');
+        console.log('Sylhet Info Card Loaded Successfully');
+        $('#khulnaInfoBut').click(function() {
+            changeScreen('homepage');
+        });
+        $('.close').click(function(){
+            $('#khulnaInfoCard').fadeOut('500');
+            console.log('Sylhet Info Card Closed Successfully');
+        });
     }catch(error) {
         console.error(error);
     }
@@ -70,8 +96,15 @@ $('#khulnaMap').click(function() {
 $('#barisalMap').click(function() {
     console.log('Barisal Hotspot Clicked.');
     try {
-        //Load card with brief info on area
+        $('#barisalInfoCard').fadeIn('500');
         console.log('Barisal Info Card Loaded Successfully');
+        $('#barisalInfoBut').click(function() {
+            changeScreen('homepage');
+        });
+        $('.close').click(function(){
+            $('#barisalInfoCard').fadeOut('500');
+            console.log('Barisal Info Card Closed Successfully');
+        });
     }catch(error) {
         console.error(error);
     }
@@ -79,8 +112,15 @@ $('#barisalMap').click(function() {
 $('#chittagongMap').click(function() {
     console.log('Chittagong Hotspot Clicked.');
     try {
-        //Load card with brief info on area
+        $('#chittagongInfoCard').fadeIn('500');
         console.log('Chittagong Info Card Loaded Successfully');
+        $('#chittagongInfoBut').click(function() {
+            changeScreen('homepage');
+        });
+        $('.close').click(function(){
+            $('#chittagongInfoCard').fadeOut('500');
+            console.log('Chittagong Info Card Closed Successfully');
+        });
     }catch(error) {
         console.error(error);
     }
